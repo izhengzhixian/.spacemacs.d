@@ -471,7 +471,7 @@ configuration.
 It is mostly for variables that should be set before packages are loaded.
 If you are unsure, try setting them in `dotspacemacs/user-config' first."
 
-  (when ((equal (current-time-zone) '(28800 "CST")
+  (when (equal (current-time-zone) '(28800 "CST"))
       (setq configuration-layer-elpa-archives
             '(("melpa-cn" . "https://mirrors.cloud.tencent.com/elpa/melpa/")
               ("org-cn"   . "https://mirrors.cloud.tencent.com/elpa/org/")

@@ -5,11 +5,12 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(company-idle-delay 0.2)
- '(company-show-numbers t)
- '(company-statistics-auto-restore nil)
+ '(company-idle-delay 0.2 t)
+ '(company-show-numbers t t)
+ '(company-statistics-auto-restore nil t)
+ '(evil-want-Y-yank-to-eol nil)
  '(gnus-home-directory
-   "/home/zhixian/.spacemacs.d/layers/izhengzhixian-office/gnus/")
+   "/Users/zhixianzheng/.spacemacs.d/layers/izhengzhixian-office/gnus/")
  '(lsp-enable-links nil)
  '(lsp-log-io nil)
  '(lsp-pyls-plugins-flake8-max-line-length 100)
@@ -27,3 +28,9 @@
      (javascript-backend . lsp)
      (go-backend . go-mode)
      (go-backend . lsp))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
