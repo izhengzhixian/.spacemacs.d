@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: file2list
+# key: file2list
+# --
+def file2list(file_path):
+    with open(file_path) as f:
+        for line in f:
+            line = line.strip()
+            if line:
+                yield line
+
+
+$0

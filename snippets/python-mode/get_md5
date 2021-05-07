@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: get_host
+# key: get_host
+# --
+import hashlib
+def get_md5(string):
+    if isinstance(string, str):
+        string = string.encode("utf-8")
+    value = hashlib.md5(string).hexdigest()
+    return value
+
+$0

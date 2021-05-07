@@ -1,0 +1,4 @@
+.DS_Store
+/.spacemacs.env
+*.elc
+/layers/izhengzhixian-office/gnus/News/rss/

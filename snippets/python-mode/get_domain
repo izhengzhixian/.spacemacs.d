@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: get_domain
+# key: get_domain
+# --
+import tldextract
+def get_domain(url):
+    return tldextract.extract(url).registered_domain
+
+
+$0

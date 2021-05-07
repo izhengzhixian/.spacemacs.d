@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: get_host
+# key: get_host
+# --
+from urllib.parse import urlsplit
+def get_host(url):
+    return urlsplit(url).hostname
+
+
+$0

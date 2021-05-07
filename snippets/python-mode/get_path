@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: get_path
+# key: get_path
+# --
+from urllib.parse import urlsplit
+def get_path(url):
+    return urlsplit(url).path
+
+
+$0

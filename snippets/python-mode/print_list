@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: print_list
+# key: print_list
+# --
+def print_list(items):
+    print("\t".join([str(item) for item in items]))
+
+
+$0

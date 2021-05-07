@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: get_subdomain
+# key: get_subdomain
+# --
+import tldextract
+def get_subdomain(url):
+    subdomain = tldextract.extract(url).subdomain
+    return subdomain
+
+
+$0
