@@ -1,6 +1,6 @@
 (defconst izhengzhixian-programming-packages
   '(
-    quickrun
+    ;quickrun
     ;rainbow-fart
     ))
 
@@ -26,12 +26,12 @@
   :hook (prog-mode . rainbow-fart-mode)
   :config
   (progn
-   ;; 每个关键词每10分钟播报一次
-   ; (setq rainbow-fart-keyword-interval (* 60 10))
-   ; 每个关键词都播报
+    每个关键词每10分钟播报一次
+    (setq rainbow-fart-keyword-interval (* 60 10))
+    每个关键词都播报
    (setq rainbow-fart-keyword-interval nil)
-   ;; 禁用每小时提醒
-   ;(setq rainbow-fart-time-interval nil)
+    禁用每小时提醒
+   (setq rainbow-fart-time-interval nil)
    )
   )
 )
