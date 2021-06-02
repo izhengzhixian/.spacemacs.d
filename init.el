@@ -475,7 +475,8 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first."
       (setq configuration-layer-elpa-archives
             '(("melpa-cn" . "https://mirrors.cloud.tencent.com/elpa/melpa/")
               ("org-cn"   . "https://mirrors.cloud.tencent.com/elpa/org/")
-              ("gnu-cn"   . "https://mirrors.cloud.tencent.com/elpa/gnu/")))
+              ("gnu-cn"   . "https://mirrors.cloud.tencent.com/elpa/gnu/")
+              ("nongnu"   . "https://mirrors.cloud.tencent.com/elpa/nongnu/")))
       (setq socks-server '("Default server" "127.0.0.1" 1080 5))
           )
   (setq package-check-signature nil)
